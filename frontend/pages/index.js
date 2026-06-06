@@ -45,21 +45,21 @@ function Check() {
 const testimonials = [
   {
     text: "Narhare Solar delivered exactly what they promised. The team was professional, the installation was smooth and our electricity bills have reduced significantly. Highly recommended!",
-    name: "Rahul Deshmukh",
-    loc: "Pune, Maharashtra",
-    initials: "RD",
+    name: "Shobha Sobkale",
+    loc: "Durgesh Vihar, Bihar",
+    initials: "SS",
   },
   {
     text: "We installed a 50kW system for our factory and the ROI was amazing. The Narhare team handled everything from survey to commissioning seamlessly. Great service!",
-    name: "Suresh Mehta",
-    loc: "Indore, Madhya Pradesh",
-    initials: "SM",
+    name: "Ankit Agrawal",
+    loc: "Kalpana Nagar",
+    initials: "AA",
   },
   {
     text: "Excellent after-sales support. Any issue we report is resolved within hours. The solar pump has completely eliminated our diesel cost on the farm.",
-    name: "Priya Kulkarni",
-    loc: "Aurangabad, Maharashtra",
-    initials: "PK",
+    name: "Mukesh Thakur",
+    loc: "Ishan Park",
+    initials: "MT",
   },
 ];
 
