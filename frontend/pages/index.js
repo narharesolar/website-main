@@ -44,7 +44,7 @@ function Check() {
 // ── Testimonials data ──────────────────────────────────────────────────────────
 const testimonials = [
   {
-    text: "Narhare Solar Solutions delivered exactly what they promised. The team was professional, the installation was smooth and our electricity bills have reduced significantly. Highly recommended!",
+    text: "Narhare Solar delivered exactly what they promised. The team was professional, the installation was smooth and our electricity bills have reduced significantly. Highly recommended!",
     name: "Rahul Deshmukh",
     loc: "Pune, Maharashtra",
     initials: "RD",
@@ -72,8 +72,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Narhare Solar Solutions – Smart Solar Energy</title>
-        <meta name="description" content="Narhare Solar Solutions provides efficient, reliable and affordable solar energy systems for homes, businesses and industries." />
+        <title>Narhare Solar – Smart Solar Energy</title>
+        <meta name="description" content="Narhare Solar provides efficient, reliable and affordable solar energy systems for homes, businesses and industries." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
