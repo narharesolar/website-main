@@ -8,13 +8,11 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 mb-4">
             <div className="w-8 h-8 bg-yellow rounded-md flex items-center justify-center">
-              <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="4" />
-                <rect x="11" y="1" width="2" height="3" rx="1" />
-                <rect x="11" y="20" width="2" height="3" rx="1" />
-                <rect x="1" y="11" width="3" height="2" rx="1" />
-                <rect x="20" y="11" width="3" height="2" rx="1" />
-              </svg>
+              <img
+              src="/logo.jpeg"
+              alt="Narhare Solar Logo"
+              className="h-14 w-auto object-contain"
+              />
             </div>
             <div>
               <div className="font-display font-bold text-white text-sm leading-none">NARHARE</div>
