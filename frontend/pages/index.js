@@ -46,7 +46,7 @@ const testimonials = [
   {
     text: "Narhare Solar delivered exactly what they promised. The team was professional, the installation was smooth and our electricity bills have reduced significantly. Highly recommended!",
     name: "Shobha Sobkale",
-    loc: "Durgesh Vihar, Bihar",
+    loc: "Durgesh Vihar",
     initials: "SS",
   },
   {
