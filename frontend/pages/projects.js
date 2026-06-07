@@ -8,7 +8,7 @@ import { useLang } from "../context/LanguageContext";
 const projects = [
   {
     id: 1,
-    title: "5kW Rooftop System",
+    title: "Shobha Sobkale",
     location: "Pune, Maharashtra",
     category: "Residential",
     capacity: "5 kW",
