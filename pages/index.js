@@ -372,7 +372,7 @@ export default function Home() {
                 { icon: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z", label: "Phone", value: "+91 9294818094" },
                 { icon: "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6", label: "Email", value: "narharesolar@gmail.com" },
                 { icon: "M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0zM12 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0", label: "Office", value: "M/67/B, Sonagiri, Bhopal, Madhya Pradesh 462022" },
-                { icon: "M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 6v6l4 2", label: "Working Hours", value: "Mon - Sat: 9:00 AM - 6:00 PM" },
+                { icon: "M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 6v6l4 2", label: "Working Hours", value: "Mon - Sat: 10:00 AM - 7:30 PM" },
               ].map(({ icon, label, value }) => (
                 <div key={label} className="flex gap-3 items-start">
                   <div className="w-9 h-9 rounded-lg bg-yellow/20 flex items-center justify-center flex-shrink-0">
