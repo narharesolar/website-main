@@ -79,7 +79,7 @@ export default function Projects() {
     <>
       <Head>
         <title>Projects | Narhare Solar Solutions</title>
-        <meta name="description" content="Browse all solar projects completed by Narhare Solar Solutions across Maharashtra and Madhya Pradesh." />
+        <meta name="description" content="Browse all solar projects completed by Narhare Solar Solutions across Madhya Pradesh." />
       </Head>
 
       <Navbar />
@@ -91,11 +91,11 @@ export default function Projects() {
         <div className="max-w-7xl mx-auto relative z-10">
           <span className="text-yellow text-xs font-extrabold tracking-widest uppercase block mb-3">{t("proj_tag")}</span>
           <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-4 leading-tight">
-            500+ Projects.<br />
+            100+ Projects.<br />
             <span className="text-yellow">Real Results.</span>
           </h1>
           <p className="text-gray-400 text-sm max-w-xl leading-relaxed">
-            From small rooftops to large industrial parks — every project we deliver is built to perform for decades.
+            From small rooftops to large industrial parks, every project we deliver is built to perform for decades.
           </p>
         </div>
       </section>
@@ -104,10 +104,10 @@ export default function Projects() {
       <div className="bg-yellow">
         <div className="max-w-7xl mx-auto px-6 lg:px-16 py-5 grid grid-cols-2 lg:grid-cols-4 gap-4">
           {[
-            ["500+", "Projects Completed"],
-            ["12+ MW", "Capacity Installed"],
+            ["100+", "Projects Completed"],
+            ["500+ kW", "Capacity Installed"],
             ["100%", "Customer Satisfaction"],
-            ["10+", "Years Experience"],
+            ["5+", "Years Experience"],
           ].map(([num, lbl]) => (
             <div key={lbl} className="text-center">
               <div className="text-2xl font-extrabold text-white">{num}</div>

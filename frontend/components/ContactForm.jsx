@@ -20,7 +20,7 @@ export default function ContactForm() {
     setStatus("loading");
 
     const text =
-      `🌞 *New Quote Request — Narhare Solar Solutions*\n\n` +
+      `🌞 *New Quote Request From Narhare Solar Website*\n\n` +
       `👤 *Name:* ${form.name}\n` +
       `📞 *Phone:* ${form.phone}\n` +
       `📧 *Email:* ${form.email}\n` +
