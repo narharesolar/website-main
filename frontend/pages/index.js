@@ -94,7 +94,7 @@ export default function Home() {
             <Link href="#services" className="btn-outline">{t("hero_btn2")}</Link>
           </div>
           <div className="flex gap-10">
-            {[["500+", t("hero_stat1")], ["100%", t("hero_stat2")], ["10+", t("hero_stat3")]].map(([num, lbl]) => (
+            {[["100+", t("hero_stat1")], ["100%", t("hero_stat2")], ["5+", t("hero_stat3")]].map(([num, lbl]) => (
               <div key={lbl} className="text-center">
                 <div className="text-2xl font-extrabold text-navy">{num}</div>
                 <div className="text-[11px] text-gray-400 mt-0.5">{lbl}</div>
