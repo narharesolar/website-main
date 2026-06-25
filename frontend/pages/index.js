@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import { useLang } from "../context/LanguageContext";
+import AnnouncementBar from "../components/AnnouncementBar";
+import SubsidyPopup from "../components/SubsidyPopup";
 
 // ── SVG helpers ────────────────────────────────────────────────────────────────
 function SunIcon({ className = "w-5 h-5 fill-white" }) {
@@ -79,6 +81,10 @@ export default function Home() {
       </Head>
 
       <Navbar />
+
+      <AnnouncementBar />
+      
+      <SubsidyPopup />
 
       {/* ── HERO ──────────────────────────────────────────────────────────── */}
       <section id="home" className="grid grid-cols-1 lg:grid-cols-2 min-h-[480px]">
