@@ -77,7 +77,7 @@ export default function Home() {
         <title>Narhare Solar – Smart Solar Energy</title>
         <meta name="description" content="Narhare Solar provides efficient, reliable and affordable solar energy systems for homes, businesses and industries." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.jpeg" />
       </Head>
 
       <Navbar />
