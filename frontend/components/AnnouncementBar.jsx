@@ -34,7 +34,7 @@ function Pad({ n }) {
 
 export default function AnnouncementBar() {
   const [visible, setVisible] = useState(true);
-  const timeLeft = useCountdown("2027-05-31T23:59:59");
+  const timeLeft = useCountdown("2027-03-31T23:59:59");
 
   if (!visible) return null;
 
@@ -47,7 +47,7 @@ export default function AnnouncementBar() {
       </span>
 
       <span className="text-center tracking-wide">
-        ⚠️ <strong>Govt. Subsidy for New Connections ends on 31st May 2027</strong>
+        ⚠️ <strong>Govt. Subsidy for New Connections ends on 31st March 2027</strong>
       </span>
 
       {/* Countdown */}

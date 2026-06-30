@@ -34,7 +34,7 @@ function TimeBox({ value, label }) {
 
 export default function SubsidyPopup() {
   const [open, setOpen] = useState(false);
-  const timeLeft = useCountdown("2027-05-31T23:59:59");
+  const timeLeft = useCountdown("2027-03-31T23:59:59");
 
   useEffect(() => {
     // Show popup after 2 seconds, only once per session
@@ -77,7 +77,7 @@ export default function SubsidyPopup() {
         <div className="px-6 py-6 text-center">
           <div className="text-4xl mb-3">⚡</div>
           <h2 className="text-xl font-extrabold text-navy mb-2 leading-tight">
-            Govt. Subsidy for Solar<br />Ends on <span className="text-red-600">31st May 2027</span>
+            Govt. Subsidy for Solar<br />Ends on <span className="text-red-600">31st March 2027</span>
           </h2>
           <p className="text-gray-500 text-sm leading-relaxed mb-6">
             Don't miss the PM Surya Ghar Yojana subsidy — get up to <strong className="text-navy">₹78,000 off</strong> on your solar installation. Claim before the deadline!
