@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
 import ContactForm from "../components/ContactForm";
+import FacebookPixel from "../components/FacebookPixel";
 
 export default function GetQuote() {
   return (
     <>
+       <FacebookPixel />
       <Head>
         <title>Get a Free Solar Quote – Narhare Solar</title>
         <meta name="description" content="Get a free solar quote from Narhare Solar. We serve homes, businesses and farms across Madhya Pradesh." />
