@@ -2,6 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import LangToggle from "./LangToggle";
 import { useLang } from "../context/LanguageContext";
+import FacebookPixel from "../components/FacebookPixel";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -65,7 +66,25 @@ export default function Navbar() {
             <Link href="/#contact" className="btn-yellow flex-1 justify-center" onClick={() => setOpen(false)}>
               {t("nav_cta")}
             </Link>
+           
+            <script>
+              !function(f,b,e,v,n,t,s)
+                  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                  n.queue=[];t=b.createElement(e);t.async=!0;
+                  t.src=v;s=b.getElementsByTagName(e)[0];
+                  s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                  fbq('init', '4476911249246086');
+                  fbq('track', 'PageView');
+              </script>
+              <noscript><img height="1" width="1" style="display:none"
+                src="https://www.facebook.com/tr?id=4476911249246086&ev=PageView&noscript=1"
+              /></noscript>
+
           </div>
+
         </div>
       )}
     </nav>
